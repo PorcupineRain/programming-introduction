@@ -19,7 +19,7 @@ console.log(result);
 // TODO: Implement the oddEven function
 
 function oddEven(givenNumber) {
-  if (givenNumber % 2 == 0) {
+  if (givenNumber % 2 === 0) {
     return "even";
   } else {
     return "odd";

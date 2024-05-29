@@ -15,7 +15,7 @@ function oddNumbers(startNumber, endNumber) {
       result += i + ",";
     }
   }
-  return result;
+  return result.slice(0, -1);
 }
 
 console.log(oddNumbers(0, 4));
